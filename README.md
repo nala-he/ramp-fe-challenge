@@ -1,6 +1,4 @@
-<<<<<<< HEAD
 # ramp-fe-challenge
-=======
 # Instructions
 
 Welcome to Ramp's frontend interview challenge.
@@ -205,4 +203,4 @@ You will submit a link to a CodeSandbox with your responses. Make sure your Code
 - Don't remove existing `data-testid` tags. Otherwise, your results will be invalidated.
 - Other than the bugs, don't modify anything that will have a different outcome. Otherwise, your results might be invalidated.
 - Plagiarism is a serious offense and will result in disqualification from further consideration.
->>>>>>> 43ecc2e (initial commit)
+

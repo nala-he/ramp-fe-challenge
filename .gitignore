@@ -1,0 +1,66 @@
+# Operating System Files
+.DS_Store
+Thumbs.db
+
+# Node.js
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+venv/
+env/
+
+# Java
+*.class
+.mtj.tmp/
+*.jar
+*.war
+*.ear
+hs_err_pid*
+
+# C/C++
+*.o
+*.obj
+*.lo
+*.iol
+*.gch
+*.pch
+*.lib
+*.a
+*.la
+*.so
+*.so.*
+*.exe
+*.out
+*.app
+
+# Development Tools
+.idea/
+*.iml
+*.iws
+out/
+.vscode/
+.metadata
+*.log
+bin/
+tmp/
+*.bak
+*.swp
+
+# Build and Dependency Directories
+node_modules/
+vendor/
+build/
+dist/
+out/
+target/
+
+# Environment Files
+.env
+.env.local
+.env.*.local

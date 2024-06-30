@@ -65,8 +65,13 @@ export function App() {
               return
             }
 
-            await loadTransactionsByEmployee(newValue.id)
-          }}
+            // await loadTransactionsByEmployee(newValue.id)
+            if (newValue.id === "") {
+              await loadAllTransactions()
+            } else {
+              await loadTransactionsByEmployee(newValue.id)
+            }}
+          }
         />
 
         <div className="RampBreak--l" />
